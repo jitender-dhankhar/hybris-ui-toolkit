@@ -1,0 +1,64 @@
+{
+  "name": "hybris-fed-toolkit",
+  "version": "0.0.1",
+  "description": "A toolkit for building Hybris website",
+  "homepage": "http://pages/home.html",
+  "main": "README.md",
+  "scripts": {
+    "gulp": "gulp",
+    "prestart": "npm install",
+    "build": "npm install && gulp",
+    "start": "gulp --dev",
+    "test": "npm run build"
+  },
+  "keywords": [
+    "toolkit",
+    "styleguide",
+    "framework",
+    "scaffold",
+    "patterns",
+    "library"
+  ],
+  "author": "Jitender Dhankhar",
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbrctr/fabricator.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.2.17",
+    "babel-loader": "5.0.0",
+    "browser-sync": "^2.7.1",
+    "del": "^1.1.1",
+    "fabricator-assemble": "^1.1.7",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-js": "^0.1.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-less": "^3.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.4",
+    "imports-loader": "^0.6.3",
+    "path": "^0.12.7",
+    "pump": "^3.0.0",
+    "run-sequence": "^1.0.2",
+    "script-loader": "^0.6.1",
+    "webpack": "^1.8.11"
+  },
+  "dependencies": {
+    "gulp-minify": "^2.1.0",
+    "node-gyp": "^3.6.2",
+    "node-sass": "^4.7.2"
+  }
+}

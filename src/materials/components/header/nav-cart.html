@@ -1,0 +1,18 @@
+<div class="nav-cart">
+    <a href="cart.html" class="mini-cart-link js-mini-cart-link" 
+                    data-mini-cart-url="cart/rollover/MiniCart" 
+                    data-mini-cart-refresh-url="cart/miniCart/SUBTOTAL" 
+                    data-mini-cart-name="Cart" data-mini-cart-empty-name="Empty Cart"
+                    data-mini-cart-items-text="Items">
+        <div class="mini-cart-icon">
+            {{> glyphicon glyphiconClass="glyphicon glyphicon-shopping-cart" }}
+        </div>
+        <div class="mini-cart-price js-mini-cart-price hidden-xs hidden-sm">{{ headerData.cartPrice }}</div>
+        <div class="mini-cart-count js-mini-cart-count">
+            <span class="nav-items-total">{{ headerData.cartItems }}
+                <span class="items-desktop hidden-xs">{{{ headerData.cartItemsLabel }}}</span>
+            </span>
+        </div>
+    </a>
+</div>
+<div class="mini-cart-container js-mini-cart-container"></div>

@@ -1,0 +1,184 @@
+{
+    "mobileNavIcons": [
+        {
+            "navClass": "mobile__nav__row--table-cell visible-xs hidden-sm",
+            "buttonClass": "mobile__nav__row--btn btn mobile__nav__row--btn-menu js-toggle-sm-navigation",
+            "glyphiconClass": "glyphicon glyphicon-align-justify"
+        },
+        {
+            "navClass": "mobile__nav__row--table-cell visible-xs mobile__nav__row--seperator",
+            "buttonClass": "mobile__nav__row--btn btn mobile__nav__row--btn-search js-toggle-xs-search hidden-sm hidden-md hidden-lg",
+            "glyphiconClass": "glyphicon glyphicon-search"
+        }
+    ],
+    "navOrderLinks": [
+        {
+            "href": "quick-order.html",
+            "title": "Quick Order",
+            "text": "Quick Order"
+        },
+        {
+            "href": "saved-cart.html",
+            "title": "Import Saved Cart",
+            "text": "Import Saved Cart"
+        }
+    ],
+    "cartPrice": "$0.00",
+    "cartItems": "0",
+    "cartItemsLabel": "&nbsp;Items",
+    "navBrandsCameras": [
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Canon",
+            "anchorText": "Canon"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Sony",
+            "anchorText": "Sony"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Kodak",
+            "anchorText": "Kodak"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Samsung",
+            "anchorText": "Samsung"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Toshiba",
+            "anchorText": "Toshiba"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Fujifilm",
+            "anchorText": "Fujifilm"
+        }
+    ],
+    "navBrandsAccessories": [
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Kingston",
+            "anchorText": "Kingston"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Icidu",
+            "anchorText": "Icidu"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "TDK",
+            "anchorText": "TDK"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Sweex",
+            "anchorText": "Sweex"
+        }
+    ],
+    "navDigitalCamera": [
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Compact Cameras",
+            "anchorText": "Compact Cameras"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "SLR Cameras",
+            "anchorText": "SLR Cameras"
+        }
+    ],
+    "navPrimary": [
+        {
+            "liClass": "auto nav__links--primary",
+            "spanClass": "yCmsComponent nav__link js_nav__link",
+            "anchorHref": "#",
+            "anchorTitle": "Film Cameras",
+            "anchorText": "Film Cameras"
+        },
+        {
+            "liClass": "auto nav__links--primary",
+            "spanClass": "yCmsComponent nav__link js_nav__link",
+            "anchorHref": "#",
+            "anchorTitle": "Hand Held Camcorders",
+            "anchorText": "Hand Held Camcorders"
+        },
+        {
+            "liClass": "auto nav__links--primary",
+            "spanClass": "yCmsComponent nav__link js_nav__link",
+            "anchorHref": "#",
+            "anchorTitle": "Webcams",
+            "anchorText": "Webcams"
+        },
+        {
+            "liClass": "auto nav__links--primary",
+            "spanClass": "yCmsComponent nav__link js_nav__link",
+            "anchorHref": "#",
+            "anchorTitle": "Power Supplies",
+            "anchorText": "Power Supplies"
+        },
+        {
+            "liClass": "auto nav__links--primary",
+            "spanClass": "yCmsComponent nav__link js_nav__link",
+            "anchorHref": "#",
+            "anchorTitle": "Flash Memory",
+            "anchorText": "Flash Memory"
+        }
+    ],
+    "navCameraAccessories": [
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Camera Flashes",
+            "anchorText": "Camera Flashes"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Tripods",
+            "anchorText": "Tripods"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Camera Lenses",
+            "anchorText": "Camera Lenses"
+        }
+    ],
+    "navSupplies": [
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Color Films",
+            "anchorText": "Color Films"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Black &amp; White Films",
+            "anchorText": "Black &amp; White Films"
+        },
+        {
+            "liClass": "yCmsComponent nav__link--secondary",
+            "anchorHref": "#",
+            "anchorTitle": "Blank Videotapes",
+            "anchorText": "Blank Videotapes"
+        }
+    ]
+}
