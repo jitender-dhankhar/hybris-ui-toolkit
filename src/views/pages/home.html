@@ -1,0 +1,119 @@
+---
+hybris: true
+title: Hybris Home
+---
+
+<div class="branding-mobile hidden-md hidden-lg">
+	<div class="js-mobile-logo"></div>
+</div>
+<main data-currency-iso-code="USD">
+
+	{{> header }}
+
+	<div class="yCmsContentSlot container-fluid"></div>
+	<a id="skip-to-content"></a>
+	<div>
+		{{#homeData.banner1 }}
+			{{> banner.res-image }}
+		{{/homeData.banner1}}
+		{{#homeData.banner2 }}
+			{{> banner.res-image }}
+		{{/homeData.banner2}}
+		<div class="row no-margin">
+			<div class="col-xs-12 col-md-6 no-space">
+				<div class="yCmsContentSlot row no-margin">
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						{{#homeData.banner3 }}
+							{{> banner.res-image }}
+						{{/homeData.banner3}}
+					</div>
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						{{#homeData.banner4 }}
+							{{> banner.res-image }}
+						{{/homeData.banner4}}
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 no-space">
+				<div class="yCmsContentSlot row no-margin">
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						{{#homeData.banner5 }}
+							{{> banner.res-image }}
+						{{/homeData.banner5}}
+					</div>
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						{{#homeData.banner6 }}
+							{{> banner.res-image }}
+						{{/homeData.banner6}}
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="yCmsContentSlot landingLayout2PageSection2C">
+				</div>
+			</div>
+		</div>
+	
+		<div class="yCmsContentSlot">
+			<div class="yCmsComponent no-space yComponentWrapper">
+				<div class="carousel__component">
+					<div class="carousel__component--headline">Our Bestselling Products</div>
+	
+					<div class="carousel__component--carousel js-owl-carousel js-owl-default">
+						{{#each homeData.carousel1 }}
+							{{> carousel.home-carousel }}
+						{{/each}}
+					</div>
+				</div>
+			</div>
+			<div class="yCmsComponent no-space yComponentWrapper">
+				<div class="carousel__component">
+					<div class="carousel__component--headline">What&#039;s New</div>
+	
+					<div class="carousel__component--carousel js-owl-carousel js-owl-default">
+						{{#each homeData.carousel2 }}
+							{{> carousel.home-carousel }}
+						{{/each}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yCmsContentSlot row no-margin">
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				{{#homeData.banner7 }}
+					{{> banner.res-image }}
+				{{/homeData.banner7}}
+			</div>
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				{{#homeData.banner8 }}
+					{{> banner.res-image }}
+				{{/homeData.banner8}}
+			</div>
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				{{#homeData.banner9 }}
+					{{> banner.res-image }}
+				{{/homeData.banner9}}
+			</div>
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				{{#homeData.banner10 }}
+					{{> banner.res-image }}
+				{{/homeData.banner10}}
+			</div>
+		</div>
+		<div class="yCmsContentSlot">
+			<div class="yCmsComponent yComponentWrapper">
+				{{#homeData.banner11 }}
+					{{> banner.res-image }}
+				{{/homeData.banner11}}
+			</div>
+		</div>
+	</div>
+	
+	{{> footer }}
+</main>
+	
+<form name="accessiblityForm">
+	<input type="hidden" id="accesibility_refreshScreenReaderBufferField" name="accesibility_refreshScreenReaderBufferField"
+					value="" />
+</form>
+<div id="ariaStatusMsg" class="skip" role="status" aria-relevant="text" aria-live="polite"></div>

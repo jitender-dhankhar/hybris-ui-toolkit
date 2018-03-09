@@ -1,0 +1,119 @@
+{
+    "footerLinks": [
+        {
+            "linkTitle": "Accelerator",
+            "linkLi": [
+                {
+                    "anchorHref": "http://www.hybris.com/multichannel-accelerator",
+                    "anchorTitle": "About Commerce Accelerator",
+                    "anchorText": "About Commerce Accelerator",
+                    "anchorTarget": "_blank",
+                    "anchorRel": "noopener noreferrer"
+                },
+                {
+                    "anchorHref": "faq.html",
+                    "anchorTitle": "FAQ",
+                    "anchorText": "FAQ",
+                    "anchorTarget": "",
+                    "anchorRel": ""
+                }
+            ]
+        },
+        {
+            "linkTitle": "Hybris",
+            "linkLi": [
+                {
+                    "anchorHref": "http://www.hybris.com",
+                    "anchorTitle": "About hybris",
+                    "anchorText": "About hybris",
+                    "anchorTarget": "_blank",
+                    "anchorRel": "noopener noreferrer"
+                },
+                {
+                    "anchorHref": "http://www.hybris.com/contact",
+                    "anchorTitle": "Contact Us",
+                    "anchorText": "Contact Us",
+                    "anchorTarget": "_blank",
+                    "anchorRel": "noopener noreferrer"
+                }
+            ]
+        },
+        {
+            "linkTitle": "Follow Us",
+            "linkLi": [
+                {
+                    "anchorHref": "http://www.agile-commerce.com/",
+                    "anchorTitle": "Agile Commerce Blog",
+                    "anchorText": "Agile Commerce Blog",
+                    "anchorTarget": "_blank",
+                    "anchorRel": "noopener noreferrer"
+                },
+                {
+                    "anchorHref": "http://www.linkedin.com/company/97435",
+                    "anchorTitle": "Linked In",
+                    "anchorText": "Linked In",
+                    "anchorTarget": "_blank",
+                    "anchorRel": "noopener noreferrer"
+                },
+                {
+                    "anchorHref": "http://www.facebook.com/hybrissoftware",
+                    "anchorTitle": "Facebook",
+                    "anchorText": "Facebook",
+                    "anchorTarget": "_blank",
+                    "anchorRel": "noopener noreferrer"
+                },
+                {
+                    "anchorHref": "http://twitter.com/#!/hybris_software",
+                    "anchorTitle": "Twitter",
+                    "anchorText": "Twitter",
+                    "anchorTarget": "_blank",
+                    "anchorRel": "noopener noreferrer"
+                }
+            ]
+        }
+    ],
+    "currencyDropdown": {
+        "selectName": "code",
+        "selectId": "currency-selector",
+        "selectClass": "form-control",
+        "selectOptions": [
+            {
+                "optionValue": "JPY",
+                "optionText": "¥ JPY"
+            },
+            {
+                "optionValue": "USD",
+                "optionText": "$ USD",
+                "optionSelected": "true"
+            }
+        ]
+    },
+    "langDropdown": {
+        "selectName": "code",
+        "selectId": "lang-selector",
+        "selectClass": "form-control",
+        "selectOptions": [
+            {
+                "optionValue": "ja",
+                "optionText": "日本語",
+                "optionLang": "ja"
+            },
+            {
+                "optionValue": "en",
+                "optionText": "English",
+                "optionLang": "en",
+                "optionSelected": "true"
+            },
+            {
+                "optionValue": "de",
+                "optionText": "Deutsch",
+                "optionLang": "de"
+            },
+            {
+                "optionValue": "zh",
+                "optionText": "中文",
+                "optionLang": "zh"
+            }
+        ]
+    }
+}

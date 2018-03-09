@@ -1,0 +1,9 @@
+<select name="{{selectName}}" id="{{selectId}}" class="{{selectClass}}">
+    {{#each selectOptions }}
+        {{#if optionSelected}}
+            <option value="{{optionValue}}" lang="optionLang" selected>{{ optionText }}</option>
+        {{else}}
+            <option value="{{optionValue}}" lang="optionLang">{{ optionText }}</option>
+        {{/if}}
+	{{/each}}
+</select>

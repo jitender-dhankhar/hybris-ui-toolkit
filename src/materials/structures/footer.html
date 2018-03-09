@@ -1,0 +1,50 @@
+<footer>
+    <div class="container-fluid">
+        <div class="footer__top">
+            <div class="row">
+                <div class="footer__left col-xs-12 col-sm-12 col-md-9">
+                    <div class="row">
+                        {{#each footerData.footerLinks }}
+                            {{> footer.links }}
+                        {{/each}}
+                    </div>
+                </div>
+                <div class="footer__right col-xs-12 col-md-3">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6 footer__dropdown">
+                            <form id="lang-form" action="/yacceleratorstorefront/electronics/en/_s/language" method="post">
+                                <div class="form-group">
+                                    <label class="control-label sr-only" for="lang-selector">Select Language</label>
+                                    {{#footerData.langDropdown}}
+                                        {{> footer.lang-select }}
+                                    {{/footerData.langDropdown}}
+                                </div>
+                                <div>
+                                    <input type="hidden" name="CSRFToken" value="523c0b6c-15ce-4663-b821-c0f1aec11255" />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-6 col-md-6 footer__dropdown">
+                            <form id="currency-form" action="/yacceleratorstorefront/electronics/en/_s/currency" method="post">
+                                <div class="form-group">
+                                    <label class="control-label sr-only" for="currency-selector">Select Currency</label>
+                                    {{#footerData.currencyDropdown}}
+                                        {{> select }}
+                                    {{/footerData.currencyDropdown}}
+                                </div>
+                                <div>
+                                    <input type="hidden" name="CSRFToken" value="523c0b6c-15ce-4663-b821-c0f1aec11255" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__copyright">
+            <div class="container">© 2016 hybris software</div>
+        </div>
+    </div>
+</footer>
