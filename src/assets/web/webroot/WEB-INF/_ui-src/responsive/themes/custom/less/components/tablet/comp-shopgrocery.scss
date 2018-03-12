@@ -1,0 +1,87 @@
+$shopGroceryAreaListHeight: 340px;
+
+.comp-shopgrocery {
+  width: 600px;
+
+  &__mobiletitle {
+    display: none;
+  }
+
+  // Change text
+  &__change {
+    display: none;
+  }
+
+  &__bottom {
+    overflow: hidden;
+    display: block !important;
+    max-height: 300px;
+    transition: max-height .3s ease;
+  }
+
+  // >>>>>>>>>>>>>>>>>>>>>>>>
+  // Dropdown Overrides
+  .comp-select.bootstrap-select {
+    border: 1px solid $mafc-dove-gray;
+
+    // Dropdown toggle Button
+    .dropdown-toggle {
+      height: auto; // Override added height to button
+      padding: $mafc-pad;
+
+      &,
+      &:focus {
+        background: $mafc-white !important;
+      }
+    }
+
+    // Area List Dropdown
+    > .dropdown-menu {
+      height: ($shopGroceryAreaListHeight - 2px) !important; // minus 2px border
+      padding: $mafc-small-pad $mafc-small-pad 0;
+    }
+
+    .dropdown-menu.inner {
+      top: 56px;
+      padding: 0 24px;
+
+      li {
+        &.active a {
+          background-color: rgba($mafc-wild-sand, .5);
+          padding-left: $mafc-pad;
+        }
+        &:hover a {
+          background-color: rgba($mafc-wild-sand, .5);
+          padding-left: $mafc-pad;
+        }
+
+
+        a {
+          transition: padding .3s ease;
+        }
+      }
+    }
+  }
+}
+
+.comp-select.bootstrap-select {
+  // Cookie-based for hiding/showing Area List
+  .comp-shopgrocery._showlist &,
+  // Bootstrap-select
+  &.open {
+    max-height: $shopGroceryAreaListHeight; // Responsible for the slide effect
+  }
+
+  &.open {
+    ~ .comp-shopgrocery__bottom {
+      max-height: 0;
+    }
+  }
+}
+
+.comp-shopgrocery__bottom {
+  .comp-shopgrocery._showlist &,
+  .comp-select.bootstrap-select.open ~ & {
+    max-height: 0;
+  }
+}
