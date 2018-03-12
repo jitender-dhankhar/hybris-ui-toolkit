@@ -1,0 +1,41 @@
+.comp-checkout__steps {
+    padding: 0 12px;
+    justify-content: flex-start;
+    margin-top: 32px;
+    margin-bottom: 26px;
+
+    &__step {
+        border: 0;
+        background-color: transparent;
+        flex: none;
+        margin-left: 40px;
+
+        &:first-of-type {
+            border-left: 0;
+            margin-left: 32px;
+        }
+    }
+
+    &__indicator {
+        height: 32px;
+        width: 32px;
+        font-size: 14px;
+        line-height: 32px !important;
+
+        &:before {
+            font-size: 22px;
+            line-height: 36px;
+        }
+    }
+
+    &__active {
+        .comp-checkout__steps__indicator {
+            background: $mafc-blue;
+        }
+
+        ~ * {
+            background-color: transparent;
+        }
+    }
+
+}

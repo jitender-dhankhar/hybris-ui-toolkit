@@ -1,0 +1,11 @@
+.comp-cart-content{
+    &__delivery {
+        margin-bottom:10px;
+    }
+    &__list {
+        &__title {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
