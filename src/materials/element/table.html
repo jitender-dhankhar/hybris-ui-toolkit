@@ -1,0 +1,33 @@
+{{#elementData.table}}
+	<table>
+		{{#thead}}
+			<thead>
+				<tr>
+					{{#each header}}
+						<th>{{ text }}</th>
+					{{/each}}
+				</tr>
+			</thead>
+		{{/thead}}
+		{{#tfoot}}
+			<tfoot>
+				<tr>
+					{{#each footer}}
+						<th>{{ text }}</th>
+					{{/each}}
+				</tr>
+			</tfoot>
+		{{/tfoot}}
+		{{#tbody}}
+			<tbody>
+				{{#each bodyRow}}
+					<tr>
+						{{#each bodyColumn}}
+							<td>{{ text }}</td>
+						{{/each}}
+					</tr>
+				{{/each}}
+			</tbody>
+		{{/tbody}}
+	</table>
+{{/elementData.table}}
