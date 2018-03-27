@@ -1,0 +1,760 @@
+---
+hybris: true
+imagePath: ../assets/web/webroot/_ui/responsive/theme-alpha/images/
+title: Hybris Home
+---
+
+<div class="branding-mobile hidden-md hidden-lg">
+	<div class="js-mobile-logo"></div>
+</div>
+<main data-currency-iso-code="USD">
+	<a href="#skip-to-content" class="skiptocontent" data-role="none">Skip to content</a>
+	<a href="#skiptonavigation" class="skiptonavigation" data-role="none">Skip to navigation menu</a>
+	
+	<div class="yCmsContentSlot container"></div>
+	<header class="js-mainHeader">
+		<nav class="navigation navigation--top hidden-xs hidden-sm">
+			<div class="row">
+				<div class="col-sm-12 col-md-4">
+					<div class="nav__left js-site-logo">
+						<div class="yCmsComponent yComponentWrapper">
+							<div class="banner__component simple-banner">
+								<a href="home.html">
+									<img title="hybris Accelerator" alt="hybris Accelerator" src="{{imagePath}}logo-hybris-responsive.svg">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-8">
+					<div class="nav__right">
+						<ul class="nav__links nav__links--account">
+							<li class="liOffcanvas">
+								<a href="login.html">Sign in / Register</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="hidden-xs hidden-sm js-secondaryNavAccount collapse" id="accNavComponentDesktopOne">
+			<ul class="nav__links">
+	
+			</ul>
+		</div>
+		<div class="hidden-xs hidden-sm js-secondaryNavCompany collapse" id="accNavComponentDesktopTwo">
+			<ul class="nav__links js-nav__links">
+	
+			</ul>
+		</div>
+		<nav class="navigation navigation--middle js-navigation--middle">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="mobile__nav__row mobile__nav__row--table">
+						<div class="mobile__nav__row--table-group">
+							<div class="mobile__nav__row--table-row">
+								<div class="mobile__nav__row--table-cell visible-xs hidden-sm">
+									<button class="mobile__nav__row--btn btn mobile__nav__row--btn-menu js-toggle-sm-navigation"
+													type="button">
+										<span class="glyphicon glyphicon-align-justify"></span>
+									</button>
+								</div>
+	
+								<div class="mobile__nav__row--table-cell visible-xs mobile__nav__row--seperator">
+									<button	class="mobile__nav__row--btn btn mobile__nav__row--btn-search js-toggle-xs-search hidden-sm hidden-md hidden-lg"
+													type="button">
+										<span class="glyphicon glyphicon-search"></span>
+									</button>
+								</div>
+	
+								<div class="mobile__nav__row--table-cell hidden-sm hidden-md hidden-lg mobile__nav__row--seperator">
+									<a href="store-finder.html" class="mobile__nav__row--btn mobile__nav__row--btn-location btn">
+										<span class="glyphicon glyphicon-map-marker"></span>
+									</a>
+								</div>
+								<div class="yCmsContentSlot miniCartSlot componentContainer mobile__nav__row--table hidden-sm hidden-md hidden-lg">
+									<div class="yCmsComponent mobile__nav__row--table-cell">
+										<div class="nav-order-tools js-nav-order-tools display-none NAVcompONENT" data-title="">
+											<nav class="nav-order-tools__child-wrap display-none">
+												<div>
+													<a href="quick-order.html" title="Quick Order">Quick Order</a>
+												</div>
+												<div>
+													<a href="saved-cart.html" title="Import Saved Cart">Import Saved Cart</a>
+												</div>
+											</nav>
+										</div>
+									</div>
+									<div class="yCmsComponent mobile__nav__row--table-cell">
+										<div class="nav-cart">
+											<a href="cart.html" class="mini-cart-link js-mini-cart-link" 
+															data-mini-cart-url="cart/rollover/MiniCart"
+															data-mini-cart-refresh-url="cart/miniCart/SUBTOTAL"
+															data-mini-cart-name="Cart"
+															data-mini-cart-empty-name="Empty Cart" data-mini-cart-items-text="Items">
+												<div class="mini-cart-icon">
+													<span class="glyphicon glyphicon-shopping-cart "></span>
+												</div>
+												<div class="mini-cart-price js-mini-cart-price hidden-xs hidden-sm">
+													$0.00
+												</div>
+												<div class="mini-cart-count js-mini-cart-count">
+													<span class="nav-items-total">0
+														<span class="items-desktop hidden-xs">&nbsp;Items</span>
+													</span>
+												</div>
+											</a>
+										</div>
+										<div class="mini-cart-container js-mini-cart-container"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row desktop__nav">
+					<div class="nav__left col-xs-12 col-sm-6">
+						<div class="row">
+							<div class="col-sm-2 hidden-xs visible-sm mobile-menu">
+								<button class="btn js-toggle-sm-navigation" type="button">
+									<span class="glyphicon glyphicon-align-justify"></span>
+								</button>
+							</div>
+							<div class="col-sm-10">
+								<div class="site-search">
+									<div class="yCmsComponent">
+										<div class="ui-front">
+											<form name="search_form_SearchBox" method="get" action="#">
+												<div class="input-group">
+													<input type="text" id="js-site-search-input" class="form-control js-site-search-input" 
+																	name="text" value="" maxlength="100" placeholder="I&#39;m looking for"
+															data-options='{"autocompleteUrl" : "/assets/web/webroot","minCharactersBeforeRequest" : "3","waitTimeBeforeRequest" : "500","displayProductImages" : true}'>
+													<span class="input-group-btn">
+														<button class="btn btn-link js_search_button" type="submit" disabled="true">
+															<span class="glyphicon glyphicon-search"></span>
+														</button>
+													</span>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="nav__right col-xs-6 col-xs-6 hidden-xs">
+						<ul class="nav__links nav__links--shop_info">
+							<li>
+								<div class="nav-location hidden-xs">
+									<a href="store-finder.html" class="btn">
+										<span class="glyphicon glyphicon-map-marker"></span>
+									</a>
+								</div>
+							</li>
+				
+							<li>
+								<div class="yCmsContentSlot componentContainer">
+									<div class="yCmsComponent">
+										<div class="nav-order-tools js-nav-order-tools display-none NAVcompONENT" data-title="">
+											<nav class="nav-order-tools__child-wrap display-none">
+												<div>
+													<a href="quick-order.html" title="Quick Order">Quick Order</a>
+												</div>
+												<div>
+													<a href="saved-cart.html" title="Import Saved Cart">Import Saved Cart</a>
+												</div>
+											</nav>
+										</div>
+									</div>
+									<div class="yCmsComponent">
+										<div class="nav-cart">
+											<a href="cart.html" class="mini-cart-link js-mini-cart-link" 
+															data-mini-cart-url="cart/rollover/MiniCart" 
+															data-mini-cart-refresh-url="cart/miniCart/SUBTOTAL" 
+															data-mini-cart-name="Cart" data-mini-cart-empty-name="Empty Cart"
+															data-mini-cart-items-text="Items">
+												<div class="mini-cart-icon">
+													<span class="glyphicon glyphicon-shopping-cart "></span>
+												</div>
+												<div class="mini-cart-price js-mini-cart-price hidden-xs hidden-sm">
+													$0.00
+												</div>
+												<div class="mini-cart-count js-mini-cart-count">
+													<span class="nav-items-total">0
+														<span class="items-desktop hidden-xs">&nbsp;Items</span>
+													</span>
+												</div>
+											</a>
+										</div>
+										<div class="mini-cart-container js-mini-cart-container"></div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<a id="skiptonavigation"></a>
+		<nav class="navigation navigation--bottom js_navigation--bottom js-enquire-offcanvas-navigation" role="navigation">
+			<ul class="sticky-nav-top hidden-lg hidden-md js-sticky-user-group hidden-md hidden-lg">
+			</ul>
+			<div class="navigation__overflow">
+				<ul data-trigger="#signedInUserOptionsToggle" class="nav__links nav__links--products nav__links--mobile js-userAccount-Links js-nav-collapse-body offcanvasGroup1 collapse in hidden-md hidden-lg">
+				</ul>
+				<ul class="nav__links nav__links--products js-offcanvas-links">
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Brands">Brands</a>
+						</span>
+						<span class="glyphicon glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down">
+						</span>
+						<div class="sub__navigation js_sub__navigation col-md-6 col-lg-4">
+							<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Back</a>
+							<div class="row">
+								<div class="sub-navigation-section col-md-6">
+									<div class="title">Cameras</div>
+									<ul class="sub-navigation-list has-title">
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Canon">Canon</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Sony">Sony</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Kodak">Kodak</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Samsung">Samsung</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Toshiba">Toshiba</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Fujifilm">Fujifilm</a>
+										</li>
+									</ul>
+								</div>
+								<div class="sub-navigation-section col-md-6">
+									<div class="title">Accessories</div>
+									<ul class="sub-navigation-list has-title">
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Kingston">Kingston</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Icidu">Icidu</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="TDK">TDK</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Sweex">Sweex</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Digital Cameras">Digital Cameras</a>
+						</span>
+						<span class="glyphicon glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down">
+						</span>
+						<div class="sub__navigation js_sub__navigation col-md-3 col-lg-2">
+							<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Back</a>
+							<div class="row">
+								<div class="sub-navigation-section col-md-12">
+									<ul class="sub-navigation-list ">
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Compact Cameras">Compact Cameras</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="SLR Cameras">SLR Cameras</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="auto nav__links--primary ">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Film Cameras">Film Cameras</a>
+						</span>
+					</li>
+					<li class="auto nav__links--primary ">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Hand Held Camcorders">Hand Held Camcorders</a>
+						</span>
+					</li>
+					<li class="auto nav__links--primary ">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Webcams">Webcams</a>
+						</span>
+					</li>
+					<li class="auto nav__links--primary ">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Power Supplies">Power Supplies</a>
+						</span>
+					</li>
+					<li class="auto nav__links--primary ">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Flash Memory">Flash Memory</a>
+						</span>
+					</li>
+					<li class="auto nav__links--primary nav__links--primary-has__sub js-enquire-has-sub">
+						<span class="yCmsComponent nav__link js_nav__link">
+							<a href="#" title="Camera Accessories &amp; Supplies">Camera Accessories &amp; Supplies</a>
+						</span>
+						<span class="glyphicon glyphicon-chevron-right hidden-md hidden-lg nav__link--drill__down js_nav__link--drill__down"></span>
+						<div class="sub__navigation js_sub__navigation col-md-6 col-lg-4">
+							<a class="sm-back js-enquire-sub-close hidden-md hidden-lg" href="#">Back</a>
+							<div class="row">
+								<div class="sub-navigation-section col-md-6">
+									<div class="title">Accessories</div>
+									<ul class="sub-navigation-list has-title">
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Camera Flashes">Camera Flashes</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Tripods">Tripods</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Camera Lenses">Camera Lenses</a>
+										</li>
+									</ul>
+								</div>
+								<div class="sub-navigation-section col-md-6">
+									<div class="title">Supplies</div>
+									<ul class="sub-navigation-list has-title">
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Color Films">Color Films</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Black &amp; White Films">Black &amp; White Films</a>
+										</li>
+										<li class="yCmsComponent nav__link--secondary">
+											<a href="#" title="Blank Videotapes">Blank Videotapes</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div class="yCmsContentSlot container-fluid"></div>
+	<a id="skip-to-content"></a>
+	<div>
+		<div class="simple-banner banner__component--responsive">
+			<a href="#">
+				<img class="js-responsive-image" src='{{imagePath}}Electronics-LoyalCustomers-EN-1400W.jpg'
+						data-media='{"480":"{{imagePath}}Electronics-LoyalCustomers-EN-1400W.jpg","768":"{{imagePath}}Electronics-LoyalCustomers-EN-1400W.jpg","992":"{{imagePath}}Electronics-LoyalCustomers-EN-1400W.jpg","1200":"{{imagePath}}Electronics-LoyalCustomers-EN-1400W.jpg"}'
+						title='Loyal Customers' alt='Loyal Customers' style="">
+			</a>
+		</div>
+		<div class="simple-banner banner__component--responsive">
+			<a href="#">
+				<img class="js-responsive-image" src="{{imagePath}}Elec-1400x80-HomeDiscount-EN-01-1400W.jpg"
+						data-media='{"480":"{{imagePath}}Elec-1400x80-HomeDiscount-EN-01-1400W.jpg","768":"{{imagePath}}Elec-1400x80-HomeDiscount-EN-01-1400W.jpg","992":"{{imagePath}}Elec-1400x80-HomeDiscount-EN-01-1400W.jpg","1200":"{{imagePath}}Elec-1400x80-HomeDiscount-EN-01-1400W.jpg"}'
+						title='Save Big on Select Camera Accessories &amp; Supplies' alt='Save Big on Select Camera Accessories &amp; Supplies'
+				 		style="">
+			</a>
+		</div>
+		<div class="row no-margin">
+			<div class="col-xs-12 col-md-6 no-space">
+				<div class="yCmsContentSlot row no-margin">
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						<div class="simple-banner banner__component--responsive">
+							<a href="#">
+								<img class="js-responsive-image" src="{{imagePath}}defaultElec-350x262-HomeFam-EN-01-350W.jpg"
+									data-media='{"200":"{{imagePath}}defaultElec-350x262-HomeFam-EN-01-350W.jpg","240":"{{imagePath}}defaultElec-350x262-HomeFam-EN-01-350W.jpg","350":"{{imagePath}}defaultElec-350x262-HomeFam-EN-01-350W.jpg"}'
+								 	title='Compact Cameras' alt='Compact Cameras' style="">
+							</a>
+						</div>
+					</div>
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						<div class="simple-banner banner__component--responsive">
+							<a href="#">
+								<img class="js-responsive-image" src="{{imagePath}}Elec-350x262-HomeFamLight-EN-01-350W.jpg"
+									data-media='{"200":"{{imagePath}}Elec-350x262-HomeFamLight-EN-01-350W.jpg","240":"{{imagePath}}Elec-350x262-HomeFamLight-EN-01-350W.jpg","350":"{{imagePath}}Elec-350x262-HomeFamLight-EN-01-350W.jpg"}'
+								 	title='Camera Lenses' alt='Camera Lenses' style="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-6 no-space">
+				<div class="yCmsContentSlot row no-margin">
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						<div class="simple-banner banner__component--responsive">
+							<a href="#">
+								<img class="js-responsive-image" src="{{imagePath}}defaultElec-350x262-HomeKid-EN-01-350W.jpg"
+									data-media='{"200":"{{imagePath}}defaultElec-350x262-HomeKid-EN-01-350W.jpg","240":"{{imagePath}}defaultElec-350x262-HomeKid-EN-01-350W.jpg","350":"{{imagePath}}defaultElec-350x262-HomeKid-EN-01-350W.jpg"}'
+								 	title='Power Supplies' alt='Power Supplies' style="">
+							</a>
+						</div>
+					</div>
+					<div class="yCmsComponent col-xs-12 col-sm-6 no-space yComponentWrapper">
+						<div class="simple-banner banner__component--responsive">
+							<a href="#">
+								<img class="js-responsive-image" src="{{imagePath}}Elec-350x262-HomeKid-EN-01-350W.jpg"
+									data-media='{"200":"{{imagePath}}Elec-350x262-HomeKid-EN-01-350W.jpg","240":"{{imagePath}}Elec-350x262-HomeKid-EN-01-350W.jpg","350":"{{imagePath}}Elec-350x262-HomeKid-EN-01-350W.jpg"}'
+								 	title='Power Supplies' alt='Power Supplies' style="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="yCmsContentSlot landingLayout2PageSection2C">
+				</div>
+			</div>
+		</div>
+	
+		<div class="yCmsContentSlot">
+			<div class="yCmsComponent no-space yComponentWrapper">
+				<div class="carousel__component">
+					<div class="carousel__component--headline">Our Bestselling Products</div>
+	
+					<div class="carousel__component--carousel js-owl-carousel js-owl-default">
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p1.jpg" alt="Photosmart E317 Digital Camera" title="Photosmart E317 Digital Camera" />
+								</div>
+								<div class="carousel__item--name">Photosmart E317 Digital Camera</div>
+								<div class="carousel__item--price">$114.12</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p2.jpg" alt="DSC-N1" title="DSC-N1" />
+								</div>
+								<div class="carousel__item--name">DSC-N1</div>
+								<div class="carousel__item--price">$485.57</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p3.jpg" alt="NV10" title="NV10" />
+								</div>
+								<div class="carousel__item--name">NV10</div>
+								<div class="carousel__item--price">$264.69</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p4.jpg" alt="Cyber-shot W55" title="Cyber-shot W55" />
+								</div>
+								<div class="carousel__item--name">Cyber-shot W55</div>
+								<div class="carousel__item--price">$260.87</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p5.jpg" alt="PowerShot A480" title="PowerShot A480" />
+								</div>
+								<div class="carousel__item--name">PowerShot A480</div>
+								<div class="carousel__item--price">$99.85</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p6.jpg" alt="EOS450D + 18-55 IS Kit" title="EOS450D + 18-55 IS Kit" />
+								</div>
+								<div class="carousel__item--name">EOS450D + 18-55 IS Kit</div>
+								<div class="carousel__item--price">$574.88</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p7.jpg" alt="PL60 Silver" title="PL60 Silver" />
+								</div>
+								<div class="carousel__item--name">PL60 Silver</div>
+								<div class="carousel__item--price">$212.26</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p8.jpg" alt="DSLR-A100H" title="DSLR-A100H" />
+								</div>
+								<div class="carousel__item--name">DSLR-A100H</div>
+								<div class="carousel__item--price">$1,086.00</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p9.jpg" alt="HDR-CX105E Red" title="HDR-CX105E Red" />
+								</div>
+								<div class="carousel__item--name">HDR-CX105E Red</div>
+								<div class="carousel__item--price">$452.88</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p10.jpg" alt="LEGRIA HF S100" title="LEGRIA HF S100" />
+								</div>
+								<div class="carousel__item--name">LEGRIA HF S100</div>
+								<div class="carousel__item--price">$1,934.23</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c1-p11.jpg" alt="AV Cable, Model AV-8" title="AV Cable, Model AV-8" />
+								</div>
+								<div class="carousel__item--name">AV Cable, Model AV-8</div>
+								<div class="carousel__item--price">$35.68</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="yCmsComponent no-space yComponentWrapper">
+				<div class="carousel__component">
+					<div class="carousel__component--headline">What&#039;s New</div>
+	
+					<div class="carousel__component--carousel js-owl-carousel js-owl-default">
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c2-p1.jpg" alt="miniDV Head Cleaner" title="miniDV Head Cleaner" />
+								</div>
+								<div class="carousel__item--name">miniDV Head Cleaner</div>
+								<div class="carousel__item--price">$11.00</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c2-p2.jpg" alt="DSC-T90" title="DSC-T90" />
+								</div>
+								<div class="carousel__item--name">DSC-T90</div>
+								<div class="carousel__item--price">$541.34</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c2-p3.jpg" alt="PL60 Silver" title="PL60 Silver" />
+								</div>
+								<div class="carousel__item--name">PL60 Silver</div>
+								<div class="carousel__item--price">$212.26</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c2-p4.jpg" alt="PowerShot A480" title="PowerShot A480" />
+								</div>
+								<div class="carousel__item--name">PowerShot A480</div>
+								<div class="carousel__item--price">$110.88</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c2-p5.jpg" alt="Camileo S10 EU" title="Camileo S10 EU" />
+								</div>
+								<div class="carousel__item--name">Camileo S10 EU</div>
+								<div class="carousel__item--price">$146.88</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c2-p6.jpg" alt="32GB SDHC Card" title="32GB SDHC Card" />
+								</div>
+								<div class="carousel__item--name">32GB SDHC Card</div>
+								<div class="carousel__item--price">$142.70</div>
+							</a>
+						</div>
+						<div class="carousel__item">
+							<a href="#">
+								<div class="carousel__item--thumb">
+									<img src="{{imagePath}}c2-p7.jpg" alt="Digital Camera Tripod" title="Digital Camera Tripod" />
+								</div>
+								<div class="carousel__item--name">Digital Camera Tripod</div>
+								<div class="carousel__item--price">$24.47</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yCmsContentSlot row no-margin">
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				<div class="simple-banner banner__component--responsive">
+					<a href="#">
+						<img class="js-responsive-image" src='{{imagePath}}c3-p1.jpg'
+							data-media='{"200":"{{imagePath}}c3-p1.jpg","240":"{{imagePath}}c3-p1.jpg","350":"{{imagePath}}c3-p1.jpg"}'
+						 	title='Samsung NV10 Compact Camera' alt='Samsung NV10 Compact Camera' style="">
+					</a>
+				</div>
+			</div>
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				<div class="simple-banner banner__component--responsive">
+					<a href="#">
+						<img class="js-responsive-image" src='{{imagePath}}c3-p2.jpg'
+							data-media='{"200":"{{imagePath}}c3-p2.jpg","240":"{{imagePath}}c3-p2.jpg","350":"{{imagePath}}c3-p2.jpg"}'
+						 	title='Logitech QuickCam for Notebook Pro' alt='Logitech QuickCam for Notebook Pro' style="">
+					</a>
+				</div>
+			</div>
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				<div class="simple-banner banner__component--responsive">
+					<a href="#">
+						<img class="js-responsive-image" src='{{imagePath}}c3-p3.jpg'
+							data-media='{"200":"{{imagePath}}c3-p3.jpg","240":"{{imagePath}}c3-p3.jpg","350":"{{imagePath}}c3-p3.jpg"}'
+						 	title='Samsung NV10 Compact Camera' alt='Samsung NV10 Compact Camera' style="">
+					</a>
+				</div>
+			</div>
+			<div class="yCmsComponent col-xs-6 col-md-3 no-space yComponentWrapper">
+				<div class="simple-banner banner__component--responsive">
+					<a href="#">
+						<img class="js-responsive-image" src='{{imagePath}}c3-p4.jpg'
+							data-media='{"200":"{{imagePath}}c3-p4.jpg","240":"{{imagePath}}c3-p4.jpg","350":"{{imagePath}}c3-p4.jpg"}'
+							title='Sony Light HVL-20DW2' alt='Sony Light HVL-20DW2' style="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="yCmsContentSlot">
+			<div class="yCmsComponent yComponentWrapper">
+				<div class="simple-banner banner__component--responsive">
+					<a href="faq.html">
+						<img class="js-responsive-image" src='{{imagePath}}Elec-1400x50-HomeFreeDel-EN-01-1400W.jpg'
+						data-media='{"475":"{{imagePath}}Elec-1400x50-HomeFreeDel-EN-01-1400W.jpg","770":"{{imagePath}}Elec-1400x50-HomeFreeDel-EN-01-1400W.jpg","960":"{{imagePath}}Elec-1400x50-HomeFreeDel-EN-01-1400W.jpg","1400":"{{imagePath}}Elec-1400x50-HomeFreeDel-EN-01-1400W.jpg"}' 
+						title='Free Shipping on All Orders This Weekend' alt='Free Shipping on All Orders This Weekend' style="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div class="container-fluid">
+			<div class="footer__top">
+				<div class="row">
+					<div class="footer__left col-xs-12 col-sm-12 col-md-9">
+						<div class="row">
+							<div class="footer__nav--container col-xs-12 col-sm-3">
+								<div class="title">Accelerator</div>
+								<ul class="footer__nav--links">
+									<li class="yCmsComponent footer__link">
+										<a href="http://www.hybris.com/multichannel-accelerator" title="About Commerce Accelerator" 
+														target="_blank" rel="noopener noreferrer">About Commerce Accelerator</a>
+									</li>
+									<li class="yCmsComponent footer__link">
+										<a href="/yacceleratorstorefront/electronics/en/faq" title="FAQ">FAQ</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__nav--container col-xs-12 col-sm-3">
+								<div class="title">Hybris</div>
+								<ul class="footer__nav--links">
+									<li class="yCmsComponent footer__link">
+										<a href="http://www.hybris.com" title="About hybris" target="_blank" 
+														rel="noopener noreferrer">About hybris</a>
+									</li>
+									<li class="yCmsComponent footer__link">
+										<a href="http://www.hybris.com/contact" title="Contact Us" target="_blank" 
+														rel="noopener noreferrer">Contact Us</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__nav--container col-xs-12 col-sm-3">
+								<div class="title">Follow Us</div>
+								<ul class="footer__nav--links">
+									<li class="yCmsComponent footer__link">
+										<a href="http://www.agile-commerce.com/" title="Agile Commerce Blog" target="_blank" 
+														rel="noopener noreferrer">Agile Commerce Blog</a>
+									</li>
+									<li class="yCmsComponent footer__link">
+										<a href="http://www.linkedin.com/company/97435" title="Linked In" target="_blank" 
+														rel="noopener noreferrer">Linked In</a>
+									</li>
+									<li class="yCmsComponent footer__link">
+										<a href="http://www.facebook.com/hybrissoftware" title="Facebook" target="_blank" 
+														rel="noopener noreferrer">Facebook</a>
+									</li>
+									<li class="yCmsComponent footer__link">
+										<a href="http://twitter.com/#!/hybris_software" title="Twitter" target="_blank" 
+														rel="noopener noreferrer">Twitter</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__right col-xs-12 col-md-3">
+						<div class="row">
+							<div class="col-xs-6 col-md-6 footer__dropdown">
+								<form id="lang-form" action="/yacceleratorstorefront/electronics/en/_s/language" method="post">
+									<div class="form-group">
+										<label class="control-label sr-only" for="lang-selector">Select Language</label>
+	
+										<select name="code" id="lang-selector" class="form-control">
+											<option value="ja" lang="ja">
+												日本語</option>
+											<option value="en" selected="selected" lang="en">English</option>
+											<option value="de" lang="de">
+												Deutsch</option>
+											<option value="zh" lang="zh">
+												中文</option>
+										</select>
+									</div>
+									<div>
+										<input type="hidden" name="CSRFToken" value="523c0b6c-15ce-4663-b821-c0f1aec11255" />
+									</div>
+								</form>
+							</div>
+							<div class="col-xs-6 col-md-6 footer__dropdown">
+								<form id="currency-form" action="/yacceleratorstorefront/electronics/en/_s/currency" method="post">
+									<div class="form-group">
+										<label class="control-label sr-only" for="currency-selector">
+											Select Currency</label>
+	
+										<select name="code" id="currency-selector" class="form-control">
+											<option value="JPY">
+												¥ JPY</option>
+											<option value="USD" selected="selected">
+												$ USD</option>
+										</select>
+									</div>
+									<div>
+										<input type="hidden" name="CSRFToken" value="523c0b6c-15ce-4663-b821-c0f1aec11255" />
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__copyright">
+				<div class="container">© 2016 hybris software</div>
+			</div>
+		</div>
+	</footer>
+</main>
+	
+<form name="accessiblityForm">
+	<input type="hidden" id="accesibility_refreshScreenReaderBufferField" name="accesibility_refreshScreenReaderBufferField"
+					value="" />
+</form>
+<div id="ariaStatusMsg" class="skip" role="status" aria-relevant="text" aria-live="polite"></div>

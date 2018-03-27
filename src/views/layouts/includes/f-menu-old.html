@@ -2,38 +2,38 @@
 <div class="f-menu">
 
 	{{> f-controls}}
-	
+
 	<ul>
 
 		<li>
 			<a href="index.html" class="f-menu__heading">Overview</a>
 		</li>
 
-		{{#materials.element}}
+		{{#each materials}}
 		<li>
-			<a href="element.html" class="f-menu__heading">{{name}}</a>
+			<a href="{{@key}}.html" class="f-menu__heading">{{name}}</a>
 			<ul>
 				{{#each items}}
-					<li>
-						<a href="element.html#{{@key}}">{{name}}</a>
-					</li>
+				<li>
+					<a href="{{@../key}}.html#{{@key}}">{{name}}</a>
+				</li>
 				{{/each}}
 			</ul>
 		</li>
-		{{/materials.element}}
+		{{/each}}
 
-		{{#materials.template}}
+		{{#each views}}
 		<li>
-			<a href="template.html" class="f-menu__heading">{{name}}</a>
+			<a href="{{@key}}.html" class="f-menu__heading">{{name}}</a>
 			<ul>
 				{{#each items}}
-					<li>
-						<a href="template.html#{{@key}}">{{name}}</a>
-					</li>
+				<li>
+					<a href="{{@../key}}/{{@key}}.html">{{name}}</a>
+				</li>
 				{{/each}}
 			</ul>
 		</li>
-		{{/materials.template}}
+		{{/each}}
 
 		<li>
 			<a href="docs.html" class="f-menu__heading">Docs</a>

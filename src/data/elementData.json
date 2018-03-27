@@ -1,0 +1,133 @@
+{
+    "button": {
+        "text": "Submit",
+        "btnClass": "button"
+    },
+    "checkbox": {
+        "text": "Checkbox"
+    },
+    "image": {
+        "path": "../assets/web/webroot/_ui/responsive/theme-alpha/images/",
+        "src": "Electronics-LoyalCustomers-EN-1400W.jpg",
+        "title": "Loyal Customers",
+        "alt": "Loyal Customers"
+    },
+    "anchor": {
+        "href": "https://github.com/jitender-dhankhar/hybris-ui-toolkit",
+        "class": "link",
+        "title": "Hybris FED Integrator",
+        "text": "Hybris FED Integrator"
+    },
+    "para": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed orci et felis finibus aliquet non sed mauris. Ut elit metus, consectetur a tincidunt eget, dignissim ac magna."
+    },
+    "textInput": {
+        "text": "Text input",
+        "id": "textInput"
+    },
+    "textArea": {
+        "class": "textarea"
+    },
+    "radio": [
+        {
+            "name": "groupName",
+            "id": "radio1",
+            "text": "Radio 1"
+        },
+        {
+            "name": "groupName",
+            "id": "radio2",
+            "text": "Radio 2"
+        },
+        {
+            "name": "groupName",
+            "id": "radio3",
+            "text": "Radio 3"
+        }
+    ],
+    "table": {
+        "thead": {
+            "header": [
+                {
+                    "text": "Table Heading 1"
+                },
+                {
+                    "text": "Table Heading 2"
+                },
+                {
+                    "text": "Table Heading 3"
+                }
+            ]
+        },
+        "tfoot": {
+            "footer": [
+                {
+                    "text": "Table Footer 1"
+                },
+                {
+                    "text": "Table Footer 2"
+                },
+                {
+                    "text": "Table Footer 3"
+                }
+            ]
+        },
+        "tbody": {
+            "bodyRow": [
+                {
+                    "bodyColumn": [
+                        {
+                            "text": "Table Cell 1"
+                        },
+                        {
+                            "text": "Table Cell 2"
+                        },
+                        {
+                            "text": "Table Cell 3"
+                        }
+                    ]
+                },
+                {
+                    "bodyColumn": [
+                        {
+                            "text": "Table Cell 1"
+                        },
+                        {
+                            "text": "Table Cell 2"
+                        },
+                        {
+                            "text": "Table Cell 3"
+                        }
+                    ]
+                },
+                {
+                    "bodyColumn": [
+                        {
+                            "text": "Table Cell 1"
+                        },
+                        {
+                            "text": "Table Cell 2"
+                        },
+                        {
+                            "text": "Table Cell 3"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "options": [
+        {
+            "text": "India",
+            "value": "0001"
+        },
+        {
+            "text": "USA",
+            "value": "0002"
+        },
+        {
+            "text": "Russia",
+            "value": "0003"
+        }
+    ]
+}
