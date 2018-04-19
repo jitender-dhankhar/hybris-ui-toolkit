@@ -104,6 +104,14 @@ gulp.task('styles:less', function () {
     .pipe(gulp.dest('./dist/assets/web/webroot/_ui/responsive/theme-alpha/css'));
 });
 
+gulp.task('styles:custom-less', function () {
+	return gulp.src('./src/assets/web/webroot/WEB-INF/_ui-src/responsive/themes/custom/less/main.less')
+	  .pipe(less({
+		paths: [ path.join(__dirname, 'less', 'includes') ]
+	  }))
+	  .pipe(gulp.dest('./dist/assets/web/webroot/_ui/responsive/theme-custom/css'));
+  });
+
 gulp.task('styles:minify-css', ['styles:less'], () => {
 	return gulp.src('./dist/assets/web/webroot/_ui/responsive/theme-alpha/css/*.css')
 	  .pipe(cleanCSS({compatibility: 'ie8'}))
@@ -164,7 +172,7 @@ gulp.task('styles:toolkit', function () {
 		.pipe(gulpif(config.dev, reload({stream:true})));
 });
 
-gulp.task('styles', ['styles:fabricator', 'styles:toolkit', 'styles:less', 'styles:minify-css']);
+gulp.task('styles', ['styles:fabricator', 'styles:toolkit', 'styles:less', 'styles:minify-css', 'styles:custom-less']);
 
 
 // scripts
@@ -266,6 +274,9 @@ gulp.task('serve', function () {
 
 	gulp.task('styles:minify-css:watch', ['styles:minify-css']);
 	gulp.watch('src/assets/web/webroot/WEB-INF/_ui-src/responsive/**/*.less', ['styles:minify-css:watch']);
+
+	gulp.task('styles:less-custom:watch', ['styles:less-custom']);
+	gulp.watch('src/assets/web/webroot/WEB-INF/_ui-src/responsive/**/*.less', ['styles:less:watch']);
 
 	gulp.task('minify-script:watch', ['minify-script']);
 	gulp.watch('src/assets/web/webroot/WEB-INF/_ui-src/responsive/lib/ybase-0.1.0/js/*.js', ['minify-script:watch']);
